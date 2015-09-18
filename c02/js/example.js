@@ -1,6 +1,6 @@
 // Create variables for the welcome message
 var greeting = 'Howdy';
-var name = 'Molly';
+var name = ' Molly';
 var message = ', please check your order:';
 // Concatenate the variables
 var welcome = greeting + name + message;
@@ -24,7 +24,7 @@ elSign.textContent = sign;
 var elTiles = document.getElementById('tiles');
 elTiles.textContent = tiles;
 
-var elTiles = document.getElementById('subTotal');
+var elSubTotal = document.getElementById('subTotal');
 elSubTotal.textContent = '$' + subTotal;
 
 var elShipping = document.getElementById('shipping');
